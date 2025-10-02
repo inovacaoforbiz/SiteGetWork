@@ -45,7 +45,7 @@
         }
 
         .logo img {
-            height: 50px;
+            height: 90px;
             width: auto;
         }
 
@@ -178,7 +178,7 @@
         .hero-visual {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
         }
 
         .hero-logo {
@@ -277,7 +277,7 @@
 
         .servicos-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
@@ -495,6 +495,10 @@
                 grid-template-columns: 1fr;
             }
 
+            .logo img {
+                height: 60px;
+            }
+
             .tags {
                 gap: 0.8rem;
             }
@@ -540,13 +544,13 @@
 
     <section class="hero">
         <div class="hero-content">
+            <div class="hero-visual">
+                <img src="https://qdxuhqtloltvoexlkajt.supabase.co/storage/v1/object/public/LogosGetWork/Elo-Getwork-02.svg" alt="GetWork Logo" class="hero-logo">
+            </div>
             <div class="hero-text">
                 <h1>Segurança, <span class="highlight">Conexão</span> e Inovação.</h1>
                 <p>Conectamos pessoas e empresas com tecnologia e confiabilidade através da Senior Sistemas.</p>
                 <a href="#contato" class="cta-button">Fale Conosco</a>
-            </div>
-            <div class="hero-visual">
-                <img src="https://qdxuhqtloltvoexlkajt.supabase.co/storage/v1/object/public/LogosGetWork/Elo-Getwork-02.svg" alt="GetWork Logo" class="hero-logo">
             </div>
         </div>
     </section>
